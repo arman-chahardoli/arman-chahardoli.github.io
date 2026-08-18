@@ -11,7 +11,7 @@ description: >
   my work, projects, activities, and things I learn along the way.
 toc: false
 comments: false
-pin: true
+pin: false
 published: true
 ---
 ### Hello everyone,
