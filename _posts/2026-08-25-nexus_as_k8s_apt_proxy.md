@@ -16,7 +16,6 @@ mermaid: true
 pin: false
 published: true
 ---
-
 When Kubernetes nodes are running in an environment without direct Internet access, installing or upgrading `kubeadm`, `kubelet`, and `kubectl` requires an internal package repository.
 
 One simple solution is to use **Sonatype Nexus Repository** as an APT proxy for the official Kubernetes package repository.
