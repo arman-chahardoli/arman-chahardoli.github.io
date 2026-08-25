@@ -14,7 +14,7 @@ comments: false
 math: false
 mermaid: true
 pin: false
-published: true
+published: false
 ---
 
 When Kubernetes nodes are running in an environment without direct Internet access, installing or upgrading `kubeadm`, `kubelet`, and `kubectl` requires an internal package repository.
