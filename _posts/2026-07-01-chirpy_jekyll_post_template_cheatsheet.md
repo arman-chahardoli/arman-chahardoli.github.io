@@ -25,7 +25,6 @@ math: false
 mermaid: true
 pin: false
 published: false
-
 ---
 # Introduction
 Welcome to my Linux knowledge base.

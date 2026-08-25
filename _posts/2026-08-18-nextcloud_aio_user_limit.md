@@ -7,9 +7,10 @@ tags:
   - devops
   - nextcloud
   - docker
+image:
+  path: assets/posts/images/nextcloud.jpg
+  alt: Nextcloud Picture
 author: arman
-#description: >
-#  Nextcloud AIO has a default user limit of **100 users** for the one-click installation. For testing, lab environments, or other situations where this limitation is not suitable, the configured limit can be increased.
 toc: true
 comments: false
 math: false

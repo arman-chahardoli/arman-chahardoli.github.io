@@ -3,7 +3,9 @@ title: "Convert Ubuntu 24.04 from BIOS to EFI on VMware"
 categories: [Linux, VMware]
 tags: [ubuntu, uefi, bios, grub, vmware]
 date: 2026-08-24 11:51:00 +0330
-
+image:
+    path: assets/posts/images/convert_ubuntu_2404_from_BIOS_to_EFI.png
+    alt: convert_ubuntu_2404_from_BIOS_to_EFI
 categories: [Linux, Virtualization]
 tags:
   - linux
