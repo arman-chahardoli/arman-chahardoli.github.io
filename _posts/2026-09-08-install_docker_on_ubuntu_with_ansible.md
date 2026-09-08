@@ -1,7 +1,7 @@
 ---
 title: "Install Docker on Ubuntu with Ansible"
 date: 2026-09-08 10:30:00 +0330
-categories: [Docker, Install]
+categories: [Ansible, Install Docker]
 tags:
   - ansible
   - docker
@@ -18,9 +18,9 @@ published: true
 ---
 # Install Docker on Ubuntu with Ansible
 
-An Ansible role I use to install Docker consistently across my Ubuntu machines.
+A reusable Ansible role from my infrastructure automation portfolio for installing Docker consistently across Ubuntu machines.
 
-It handles repository configuration, package installation, and Docker service management.
+This role handles Docker repository configuration, package installation, and Docker service management.
 
 ## Supported
 
@@ -46,9 +46,16 @@ install_docker_on_ubuntu/
     └── docker.sources.j2
 ```
 
-## Example usage
+## Example Usage
 
-Use the role in your playbook:
+Clone the portfolio repository:
+
+```bash
+git clone https://github.com/arman-chahardoli/ansible-lab.git
+cd ansible-lab
+```
+
+Include the `install_docker_on_ubuntu` role in your playbook:
 
 ```yaml
 ---
@@ -60,15 +67,13 @@ Use the role in your playbook:
     - install_docker_on_ubuntu
 ```
 
-Then run your playbook
+Then run your playbook:
 
 ```bash
 ansible-playbook -i inventory playbook.yml
 ```
 
 ## Verify
-
-Check the installed Docker components:
 
 ```bash
 docker --version
