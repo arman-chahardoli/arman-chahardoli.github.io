@@ -14,7 +14,7 @@ comments: false
 math: false
 mermaid: true
 pin: false
-published: true
+published: false
 ---
 # Install Docker on Ubuntu with Ansible
 
@@ -83,4 +83,4 @@ systemctl status docker
 
 The role configures the official Docker APT repository dynamically based on the Ubuntu release and system architecture.
 
-**Source:** [ansible-lab](https://github.com/arman-chahardoli/ansible-lab/tree/main/roles/install_docker_on_ubuntu)
+### [Github: ansible-lab](https://github.com/arman-chahardoli/ansible-lab/tree/main/roles/install_docker_on_ubuntu)
