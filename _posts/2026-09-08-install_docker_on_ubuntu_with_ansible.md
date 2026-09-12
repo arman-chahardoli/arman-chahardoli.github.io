@@ -14,7 +14,7 @@ comments: false
 math: false
 mermaid: true
 pin: false
-published: false
+published: true
 ---
 # Install Docker on Ubuntu with Ansible
 
