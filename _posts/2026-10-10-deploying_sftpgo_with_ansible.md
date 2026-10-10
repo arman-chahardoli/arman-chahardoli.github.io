@@ -1,8 +1,15 @@
 ---
 title: "Deploying SFTPGo with Ansible: A Simple FTP/SFTP Server"
 date: 2026-10-10 14:00:00 +0330
-categories: [DevOps, Ansible]
-tags: [ansible, sftpgo, docker, sftp, ftp, nginx, automation, self-hosted]
+categories: [Ansible, Install SFTPGo]
+tags:
+  - ansible
+  - docker
+  - sftpgo
+  - install
+  - ftp
+  - sftp
+  - nginx
 author: Arman
 image:
   path: assets/posts/images/deploying_sftpgo_with_ansible_0.png
