@@ -86,7 +86,7 @@ The FTP passive port range must match the server configuration. Open these ports
 
 This deployment uses a **customized SFTPGo configuration**, rather than relying entirely on the default settings.
 
-You can customize [sftpgo.json](https://github.com/arman-chahardoli/ansible-lab/blob/main/roles/install_sftpgo/files/sftpgo.json) to adjust server settings, protocols, authentication, connection limits, and other supported options. Update the configuration used by the role and recreate or restart the container as required to apply changes.
+You can customize [sftpgo.json.j2](https://github.com/arman-chahardoli/ansible-lab/blob/main/roles/install_sftpgo/templates/sftpgo.json.j2) to adjust server settings, protocols, authentication, connection limits, and other supported options. Update the configuration used by the role and recreate or restart the container as required to apply changes.
 
 ## Accessing the Web UI
 
